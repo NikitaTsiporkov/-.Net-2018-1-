@@ -12,6 +12,7 @@ namespace Task5
         {
             int numberofwhitespace = tree - 1;
             int numberofstars = 1;
+            Console.ForegroundColor = ConsoleColor.Green;
             for (int i = 0; i < line; i++)
             {
                 string whitespaces = new string(' ', numberofwhitespace);
@@ -20,6 +21,7 @@ namespace Task5
                 numberofstars = numberofstars + 2;
                 Console.WriteLine(whitespaces + stars);
             }
+            Console.ResetColor();
         }
         static void Main(string[] args)
         {
