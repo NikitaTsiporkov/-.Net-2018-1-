@@ -1,0 +1,7 @@
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\bin\Debug\Task5.exe.config
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\bin\Debug\Task5.exe
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\bin\Debug\Task5.pdb
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.csproj.CoreCompileInputs.cache
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.exe
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.pdb
+D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache
