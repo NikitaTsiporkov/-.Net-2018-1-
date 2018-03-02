@@ -5,3 +5,10 @@ D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.csproj.Core
 D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.exe
 D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.pdb
 D:\Epam\Задания\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\bin\Debug\Task5.exe.config
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\bin\Debug\Task5.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\bin\Debug\Task5.pdb
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.csproj.CoreCompileInputs.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task01\Task5\obj\Debug\Task5.pdb
