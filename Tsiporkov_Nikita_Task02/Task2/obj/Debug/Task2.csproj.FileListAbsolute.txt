@@ -1,0 +1,12 @@
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task2\bin\Debug\Task2.exe.config
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task2\bin\Debug\Task2.exe
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task2\bin\Debug\Task2.pdb
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task2\obj\Debug\Task2.exe
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task2\obj\Debug\Task2.pdb
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task2\bin\Debug\Task2.exe.config
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task2\bin\Debug\Task2.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task2\bin\Debug\Task2.pdb
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task2\obj\Debug\Task2.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task2\obj\Debug\Task2.pdb

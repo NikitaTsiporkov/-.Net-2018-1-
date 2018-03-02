@@ -1,0 +1,14 @@
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\bin\Debug\Task4.exe.config
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\bin\Debug\Task4.exe
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\bin\Debug\Task4.pdb
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.exe
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.pdb
+C:\Users\Администратор\source\repos\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.csprojResolveAssemblyReference.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\bin\Debug\Task4.exe.config
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\bin\Debug\Task4.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\bin\Debug\Task4.pdb
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.csprojResolveAssemblyReference.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task4\obj\Debug\Task4.pdb
