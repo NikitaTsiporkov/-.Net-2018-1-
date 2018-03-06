@@ -11,5 +11,4 @@ D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\bin\Debug\Task1.pdb
 D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
 D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\obj\Debug\Task1.exe
 D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\obj\Debug\Task1.pdb
-D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\bin\Debug\Task1.exe.CodeAnalysisLog.xml
-D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\bin\Debug\Task1.exe.lastcodeanalysissucceeded
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task02\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache

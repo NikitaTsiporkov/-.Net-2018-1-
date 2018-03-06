@@ -1,0 +1,7 @@
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\obj\Debug\Task3.csprojResolveAssemblyReference.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\bin\Debug\Task3.exe.config
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\bin\Debug\Task3.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\bin\Debug\Task3.pdb
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\obj\Debug\Task3.exe
+D:\Epam\-.Net-2018-1-\Tsiporkov_Nikita_Task03\Task3\obj\Debug\Task3.pdb
