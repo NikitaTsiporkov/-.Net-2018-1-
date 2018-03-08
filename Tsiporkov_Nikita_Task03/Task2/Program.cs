@@ -14,26 +14,11 @@ namespace Task2
             string first = Console.ReadLine();
             Console.Write("Enter second string: ");
             string second = Console.ReadLine();
-            string uniqueSecond = RemoveDupes(second);
+            string uniqueSecond = new string (second.Distinct().ToArray());
             Console.WriteLine("Result: " + AddDublicates(first, uniqueSecond));
             Console.ReadKey();
         }
-        static string RemoveDupes(string s)
-        {
-            string newString = string.Empty;
-            List<char> found = new List<char>();
-            foreach (char c in s)
-            {
-                if (found.Contains(c))
-                {
-                    continue;
-                }
-                newString += c.ToString();
-                found.Add(c);
-            }
-            return newString;
-        }
-        static string AddDublicates(string input, string dublicate)
+        static string AddDublicates(string input, string dublicate)    //Попробовать через метод 
         {
             for (int j = 0; j < dublicate.Length; j++)
             {

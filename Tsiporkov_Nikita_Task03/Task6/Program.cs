@@ -11,8 +11,8 @@ namespace Task6
     {
         static void Main(string[] args)
         {
-            Regex science = new Regex("\\b[0-9,.]+e[0-9-]+\\b");
-            Regex regular = new Regex("\\b[0-9.,]+\\b");
+            Regex science = new Regex("\\b[-0-9,.]+e[0-9-]+\\b");
+            Regex regular = new Regex("\\b[-0-9.,]+\\b");
             Console.Write("Enter number: ");
             string input = Console.ReadLine();
             if (science.IsMatch(input))

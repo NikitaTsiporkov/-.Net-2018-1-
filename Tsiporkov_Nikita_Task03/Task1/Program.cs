@@ -21,29 +21,20 @@ namespace Task1
             int j = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                if (!(Char.IsLetter(s[i])))
+                if (Char.IsPunctuation(s[i]))
                 {
                     punctuation[j] = s[i];
                     j++;
                 }
             }
             string[] substr = s.Split(punctuation, StringSplitOptions.RemoveEmptyEntries);
-            string newstr = string.Join(" ", substr);
-            int sumOfchars = 0;
-            int numberOfWords = 0;
-            for (int i = 0; i < newstr.Length; i++)
+            int numberOfWords = substr.Length;
+            int sumOfChars = 0;
+            for (int i = 0; i < substr.Length; i++)
             {
-                if (!(newstr[i] == ' '))
-                {
-                    sumOfchars += 1;
-                }
-                else
-                {
-                    numberOfWords++;
-                }
+                sumOfChars += substr[i].Length;
             }
-            numberOfWords++;
-            int avg = sumOfchars / numberOfWords;
+            int avg = sumOfChars / numberOfWords;
             return avg;
         }
     }
