@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task1
+namespace Task2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter name of user: ");
-            string userName =Console.ReadLine();
-            User user = new User();
-            user.Birthday = userName;
-            Console.WriteLine(user.Birthday);
+            Round round = new Round();
+            round.X = 1;
+            round.Y = 4;
+            round.Radius = 5;
+            Console.WriteLine("Length: " + round.Length + " Square: " + round.Square);
             Console.ReadKey();
         }
     }
