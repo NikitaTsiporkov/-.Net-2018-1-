@@ -8,79 +8,45 @@ namespace Task3
 {
     class Triangle
     {
-        private double a;
-        private double b;
-        private double c;
         public Triangle()
         { }
         public Triangle(double inputa, double inputb, double inputc)
         {
-            A = inputa;
-            B = inputb;
-            C = inputc;
+            if (inputa > 0 && inputa > (inputb + inputc) && inputb > 0 && inputb > (inputa + inputc) &&
+                inputc > 0 && inputc > (inputa + inputc))
+            {
+                A = inputa;
+                B = inputb;
+                C = inputc;
+            }
+            else
+            {
+                throw new ArgumentException("Not triangle");
+            }
         }
         public double A
         {
-            get
-            {
-                return a;
-            }
-            set
-            {
-                if (value > 0)
-                {
-                    a = value;
-                }
-                else
-                {
-                    Console.WriteLine("Incorrect a");
-                }
-            }
+            get;
+            private set;
         }
         public double B
         {
-            get
-            {
-                return b;
-            }
-            set
-            {
-                if (value > 0)
-                {
-                    b = value;
-                }
-                else
-                {
-                    Console.WriteLine("Incorrect b");
-                }
-            }
+            get;
+            private set;
         }
         public double C
         {
-            get
-            {
-                return c;
-            }
-            set
-            {
-                if (value < (b + a))
-                {
-                    c = value;
-                }
-                else
-                {
-                    Console.WriteLine("Incorrect c");
-                }
-            }
+            get;
+            private set;
         }
         public double Perimetr()
         {
-            return a + b + c;
+            return A + B + C;
         }
         public double Square()
         {
             double halfOfPerimetr = Perimetr()/2 ;
-            double square = Math.Sqrt(halfOfPerimetr*(halfOfPerimetr-a)*(halfOfPerimetr - b)*(halfOfPerimetr - c));
+            double square = Math.Sqrt(halfOfPerimetr*(halfOfPerimetr-A)*(halfOfPerimetr - B)*(halfOfPerimetr - C));
                 return square;
         }
     }

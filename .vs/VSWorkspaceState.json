@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Tsiporkov_Nikita_Task02",
-    "\\Tsiporkov_Nikita_Task02\\Task1",
-    "\\Tsiporkov_Nikita_Task02\\Task4",
-    "\\Tsiporkov_Nikita_Task03",
-    "\\Tsiporkov_Nikita_Task03\\Task1"
+    "\\Tsiporkov_Nikita_Task05\\Task1",
+    "\\Tsiporkov_Nikita_Task05\\Task2",
+    "\\Tsiporkov_Nikita_Task06",
+    "\\Tsiporkov_Nikita_Task06\\LibraryClass",
+    "\\Tsiporkov_Nikita_Task06\\Task1"
   ],
-  "SelectedNode": "\\Tsiporkov_Nikita_Task03\\Tsiporkov_Nikita_Task03.sln",
+  "SelectedNode": "\\Tsiporkov_Nikita_Task06\\LibraryClass\\LibraryClass.csproj",
   "PreviewInSolutionExplorer": false
 }

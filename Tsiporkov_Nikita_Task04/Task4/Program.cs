@@ -23,8 +23,17 @@ namespace Task4
             }
             else
             {
+                Console.WriteLine("Строки не равны");
+            }
+            if (a != b)
+            {
+                Console.WriteLine("Строки не равны1");
+            }
+            else
+            {
                 Console.WriteLine("Строки равны");
             }
+            Console.WriteLine(a.Equals(b));
             Console.WriteLine(c.Text);
             Console.WriteLine(d.Text);
             Console.ReadKey();

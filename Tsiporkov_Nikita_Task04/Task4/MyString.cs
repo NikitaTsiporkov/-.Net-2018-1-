@@ -13,78 +13,49 @@ namespace Task4
         { }
         public MyString(string inputText)
         {
-            Text = inputText.ToCharArray();
+            text = inputText.ToCharArray();
         }
-        public char[] Text
-        {
-            get
-            {
-                return text;
-            }
-            set
-            {
-                text = new char[value.Length];
-                for (int i = 0; i < value.Length; i++)
-                {
-                    text[i] = value[i];
-                }
-            }
-        }
+
         public static MyString operator +(MyString a, MyString b)
         {
-            MyString c = new MyString();
-            List<char> list = new List<char>();
-            list.AddRange(a.Text);
-            list.AddRange(b.Text);
-            c.Text = list.ToArray();
-            return c;
+            var result = a.ToString() + b.ToString();
+            return new MyString(result);
         }
         public static MyString operator -(MyString a, MyString b)
         {
             MyString c = new MyString();
             string inputA, inputB,inputC;
-            inputA = new string(a.Text);
-            inputB = new string(b.Text);
-            inputC = inputA.Replace(inputB,"");
-            c.Text = inputC.ToCharArray();
-            return c;
+            inputA = a.ToString();
+            inputB = b.ToString();
+            inputC = inputA.Replace(inputB,string.Empty);
+            return new MyString(inputC);
         }
         public static bool operator ==(MyString a, MyString b)
-        {
-            bool result;
-            string inputA = new string(a.Text);
-            string inputB = new string(b.Text);
+        { 
+            string inputA = a.ToString();
+            string inputB = b.ToString();
             int cmp = string.Compare(inputA, inputB);
-            if (cmp == 0)
-            {
-                result = true;
-            }
-            else 
-            {
-                result = false;
-            }
-            return result;
+            return cmp == 0;
         }
         public static bool operator !=(MyString a, MyString b)
         {
-            bool result;
-            string inputA = new string(a.Text);
-            string inputB = new string(b.Text);
-            int cmp = string.Compare(inputA, inputB);
-            if (cmp == 0)
-            {
-                result = false;
-            }
-            else
-            {
-                result = true;
-            }
-            return result;
+            return !(a == b);
         }
+
         public override string ToString()
         {
-            string output = new string(Text);
+            string output = new string(text);
             return output;
+        }
+        public override bool Equals(object obj)
+        {
+            var str = obj as MyString;
+            if (str != null)
+            {
+                return str == this;
+            }
+
+            return false;
         }
     }
 }

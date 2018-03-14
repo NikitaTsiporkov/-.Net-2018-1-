@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,12 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter name of user: ");
+            Console.Write("Enter date of birthday of user: ");
             string userName =Console.ReadLine();
-            User user = new User();
-            user.Birthday = userName;
-            Console.WriteLine(user.Birthday);
+            DateTime date = new DateTime(05/12/1997);
+            User user = new User("Никита","Ципорков", date);
+            Console.WriteLine(user.DateOfBirth);
+            Console.WriteLine("Age: " + user.Age);
             Console.ReadKey();
         }
     }

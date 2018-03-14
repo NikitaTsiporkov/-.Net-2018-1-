@@ -8,10 +8,10 @@ namespace Task2
 {
     class Round
     {
-        private double radius;
+        protected double radius;
         private const double pi = Math.PI;
-        public Round()
-        { }
+        protected double x;
+        protected double y;
         public Round(double inputx, double inputy, double inputradius)
         {
             X = inputx;
@@ -38,27 +38,33 @@ namespace Task2
         }
         public double X
         {
-            get;
-            set;
+            get
+            {
+                return x;
+            }
+            set
+            {
+                x = value;
+            }
         }
         public double Y
         {
-            get;
-            set;
-        }
-        public double Length
-        {
             get
             {
+                return y;
+            }
+            set
+            {
+                y = value;
+            }
+        }
+        public double Length(double radius)
+        {
                 return 2 * pi * radius;
-            }
         }
-        public double Square
+        public double Square(double radius)
         {
-            get
-            {
-                return pi * radius;
-            }
+                return pi * radius*radius;
         }
     }
 }

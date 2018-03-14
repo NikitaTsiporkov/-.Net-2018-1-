@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibrary1;
 
 namespace Task1
 {
@@ -12,6 +13,7 @@ namespace Task1
         private string name;
         private string surname;
         private DateTime dateOfBirth;
+        private int age;
         public User(string name, string surname, DateTime dateOfBirth, string patronymic = null)
         {
             Name = name;
@@ -79,15 +81,7 @@ namespace Task1
         {
             get
             {
-                int age = 0;
-                if (DateTime.Today.Month < dateOfBirth.Month)
-                {
-                    age = DateTime.Today.Year - dateOfBirth.Year-1;
-                }
-                else
-                {
-                    age = DateTime.Today.Year - dateOfBirth.Year;
-                }
+                age = Class1.GetNumber(dateOfBirth);
                 return age;
             }
         }
