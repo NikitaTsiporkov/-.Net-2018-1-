@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace LibraryClass
 {
-    interface ICanvas
+    public interface ICanvas
     {
-        void Draw();
+        
+        void DrawLine(Point point1, Point point2);
+        void DrawRect(Point point1, Point point2);
+        void DrawRound(Point point, double radius);
     }
 }

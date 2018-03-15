@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryClass
+namespace Task2
 {
-    class Rectangle
+    public interface ISeries
     {
+        double GetCurrent();
+        bool MoveNext();
+        void Reset();
     }
 }

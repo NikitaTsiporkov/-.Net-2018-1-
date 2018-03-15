@@ -3,23 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Drawing;
 
 namespace LibraryClass
 {
-    public class Line : Figure
+    public class Rect : Figure
     {
         private Point point1;
-        Point point2;
-        public Line(Point point1, Point point2)
+        private Point point2;
+        public Rect(Point point1, Point point2)
         {
             this.point1 = point1;
             this.point2 = point2;
+            if (point1.X == point2.X || point1.Y == point2.Y)
+            {
+                throw new Exception("It isn't rectangle");
+            }
         }
         public override void Draw(ICanvas canvas)
         {
-            canvas.DrawLine(point1,point2);
+            canvas.DrawRect(point1, point2);
         }
     }
 }
