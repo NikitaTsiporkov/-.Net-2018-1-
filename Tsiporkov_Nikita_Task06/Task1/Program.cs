@@ -12,15 +12,17 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Figure[] figure = new Figure[4];
-            figure[1] = new Line(RandomPoint(), RandomPoint());
-            figure[2] = new Rect(RandomPoint(), RandomPoint());
-            figure[3] = new Round(RandomPoint(), 3);
-            figure[4] = new Ring(RandomPoint(), 7, 5);
-            ConsoleCanvas console = new ConsoleCanvas();
+            IFigure[] figure = new IFigure[4];
+            figure[0] = new Line(RandomPoint(), RandomPoint());
+            figure[1] = new Rect(RandomPoint(), RandomPoint());
+            figure[2] = new Round(RandomPoint(), 3);
+            figure[3] = new Ring(RandomPoint(), 7, 5);
+            ICanvas console = new ConsoleCanvas();
             for (int i = 0; i < figure.Length; i++)
             {
+                Console.WriteLine(figure[i].Name);
                 figure[i].Draw(console);
+                Console.WriteLine();
             }
             Console.ReadKey();
         }

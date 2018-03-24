@@ -8,8 +8,9 @@ using System.Drawing;
 
 namespace LibraryClass
 {
-    public class Line : Figure
+    public class Line : IFigure
     {
+        public string Name => "Line";
         private Point point1;
         Point point2;
         public Line(Point point1, Point point2)
@@ -17,7 +18,7 @@ namespace LibraryClass
             this.point1 = point1;
             this.point2 = point2;
         }
-        public override void Draw(ICanvas canvas)
+        public void Draw(ICanvas canvas)
         {
             canvas.DrawLine(point1,point2);
         }

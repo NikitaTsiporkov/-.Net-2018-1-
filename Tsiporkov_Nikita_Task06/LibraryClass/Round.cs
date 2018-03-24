@@ -7,8 +7,9 @@ using System.Drawing;
 
 namespace LibraryClass
 {
-    public class Round : Figure
+    public class Round : IFigure
     {
+        public virtual string Name => "Round";
         protected Point point;
         protected double radius;
         public Round(Point point, double radius)
@@ -20,7 +21,7 @@ namespace LibraryClass
                 throw new Exception("Invalid radius");
             }
         }
-        public override void Draw(ICanvas canvas)
+        public virtual void Draw(ICanvas canvas)
         {
             canvas.DrawRound(point, radius);
         }

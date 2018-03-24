@@ -25,8 +25,9 @@ namespace Task3.Collections
 
         public bool MoveNext()
         {
-            currentIndex = currentIndex < series.Length - 1 ? currentIndex + 1 : 0;
-            return true;
+            currentIndex++;
+            return (currentIndex <= series.Length - 1);
+            
         }
 
         public void Reset()
@@ -44,7 +45,7 @@ namespace Task3.Collections
                 }
                 else
                 {
-                    throw new IndexOutOfRangeException();
+                    throw new IndexOutOfRangeException("Invalid index");
                 }
             }
         }

@@ -7,8 +7,9 @@ using System.Drawing;
 
 namespace LibraryClass
 {
-    public class Rect : Figure
+    public class Rect : IFigure
     {
+        public string Name => "Rectangle";
         private Point point1;
         private Point point2;
         public Rect(Point point1, Point point2)
@@ -20,7 +21,7 @@ namespace LibraryClass
                 throw new Exception("It isn't rectangle");
             }
         }
-        public override void Draw(ICanvas canvas)
+        public void Draw(ICanvas canvas)
         {
             canvas.DrawRect(point1, point2);
         }

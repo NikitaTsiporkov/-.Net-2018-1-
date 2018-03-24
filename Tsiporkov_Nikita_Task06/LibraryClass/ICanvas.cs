@@ -12,6 +12,6 @@ namespace LibraryClass
         
         void DrawLine(Point point1, Point point2);
         void DrawRect(Point point1, Point point2);
-        void DrawRound(Point point, double radius);
+        void DrawRound(Point point, double radius, double innerRadius = 0);
     }
 }

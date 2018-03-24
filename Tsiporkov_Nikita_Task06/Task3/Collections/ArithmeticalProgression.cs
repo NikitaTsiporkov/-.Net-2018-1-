@@ -18,7 +18,7 @@ namespace Task3.Collections
             this.start = start;
             current = start;
             this.step = step;
-            this.currentIndex = 1;
+            currentIndex = 1;
         }
 
         public double GetCurrent()

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryClass
 {
-    public abstract class Figure 
+    public interface IFigure
     {
-        public abstract void Draw(ICanvas canvas);
+       void Draw(ICanvas canvas);
+       string Name { get; }
     }
 }

@@ -9,6 +9,7 @@ namespace LibraryClass
 {
     public class Ring : Round
     {
+        public override string Name => "Ring";
         private double radius2;
         public Ring(Point point, double radius1, double radius2) : base(point, radius1)
         {
@@ -20,8 +21,7 @@ namespace LibraryClass
         }
         public override void Draw(ICanvas canvas)
         {
-            canvas.DrawRound(point, radius);
-            canvas.DrawRound(point, radius2);
+            canvas.DrawRound(point, radius, radius2);
         }
 
     }

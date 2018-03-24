@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace Task1
 {
-    class ConsoleCanvas : ICanvas
+    public class ConsoleCanvas : ICanvas
     {
         public void DrawLine(Point point1, Point point2)
         {
@@ -20,9 +20,16 @@ namespace Task1
             Console.WriteLine($"Рисуем прямоугольник ({point1.X}, {point1.Y}), ({point2.X}, {point2.Y})");
         }
 
-        public void DrawRound(Point point1, double radius)
+        public void DrawRound(Point point1, double radius, double innerRadius)
         {
-            Console.WriteLine($"Рисуем круг в ({point1.X}, {point1.Y}) с радиусом {radius}");
+            if (innerRadius == 0)
+            {
+                Console.WriteLine($"Рисуем круг в ({point1.X}, {point1.Y}) с радиусом {radius}");
+            }
+            else
+            {
+                Console.WriteLine($"Рисуем кольцо в ({point1.X}, {point1.Y}) с радиусом {radius} и внутренним {innerRadius}");
+            }
         }
     }
 }
